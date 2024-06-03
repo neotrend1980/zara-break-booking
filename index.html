@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break Booking - Zara Customer Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/zara_logo.png" alt="Zara Logo" class="logo">
+        <h1>Break Booking - Zara Customer Service</h1>
+        <form id="bookingForm">
+            <label for="employee">Employee:</label>
+            <select id="employee">
+                <option value="Domingo Narvaez Petterson">Domingo Narvaez Petterson</option>
+                <option value="Malin Soderholm">Malin Soderholm</option>
+                <option value="Lawrence-Brown Zara">Lawrence-Brown Zara</option>
+                <option value="Maya Wallin Ida Lilly">Maya Wallin Ida Lilly</option>
+                <option value="Eva Margaretha Bark">Eva Margaretha Bark</option>
+                <option value="Jessica A Marita Strandberg">Jessica A Marita Strandberg</option>
+                <option value="Julian Johnsson">Julian Johnsson</option>
+                <option value="Michel Da Silva Moreno">Michel Da Silva Moreno</option>
+                <option value="Tim J Robert Blomberg">Tim J Robert Blomberg</option>
+                <option value="Anton Johan Majlöv">Anton Johan Majlöv</option>
+            </select>
+            <label for="time">Break Time:</label>
+            <input type="time" id="time" min="07:30" max="18:20" required>
+            <button type="submit">Book Break</button>
+        </form>
+        <div id="bookingInfo"></div>
+        <div id="timer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
